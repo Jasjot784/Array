@@ -17,5 +17,5 @@ int main()
   int n=5;
   int result=search(arr,n,x);
 
-  (result==-1)?cout<<"Element is not present":cout<<"Element is present at "<<result;
+  (result==-1)?cout<<"Element is not present":cout<<"Element is present at index "<<result;
 }
